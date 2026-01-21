@@ -75,6 +75,7 @@
   cursor: pointer;
    width:135px;
 height: 44px;
+margin-right: 200px;
 }
 
 /* arrow with  Navbar button Styles Color Add   */
@@ -92,11 +93,69 @@ height: 20px;
    
    
    /* footer style and color*/
-   .footer {
-     background-color: #3498db;
+footer {
+   
      padding: 1rem;
      text-align: center;
+     background-image: url('../assets/footer-bg.png');
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1A0B2E; /* Dark fallback color */
+  color: white;
    }
+   
+footer .logo {
+       font-size: 1.5rem;
+       font-weight: bold;
+       color: white;
+       height: 32px;
+       width: 219px;
+       margin: 0 auto 10px auto;
+   }
+     
+footer p {
+  opacity: 0.9;
+  font-size: 0.9rem;
+  color: white;
+}
+   
+
+
+
+
+footer span{
+    color: white;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.image {
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+margin-bottom: 15px;
+width: 544px;
+height: 24px;
+margin-left:650px;
+margin-right: 600px;
+
+}
+
+.image img {
+margin: 0 0.75px
+
+}
+.image a:hover span{
+    color: white;
+    opacity: 1;
+}
+
+   .image a {
+text-decoration: none;
+   }
+
    </style>
 
 
@@ -130,9 +189,17 @@ height: 20px;
 
 
 
-<section> 
+<section class="section-1"> 
  
+<div class="image">
 
+
+
+
+
+
+
+</div>
 
 
 
@@ -151,8 +218,34 @@ height: 20px;
 
 
 
-   <footer class="footer">
+   <footer>
+
+
+
+
+    <div class="logo">
+         Tech<span>Wave</span>
+</div>
+
+
+
+<div  class="image">
+   <a href="YOUR_SPOTIFY_URL" aria-label="Spotify"><img src="../assets/spotify.png" 
+    alt="Spotify Logo"><span>spotify</span></a>
+
+    <a href="YOUR_YOUTUBE_URL" aria-label="YouTube"><img src="../assets/youtube.png" 
+    alt="YouTube Logo"><span>youtube</span></a>
+     <a href="YOUR_INSTAGRAM_URL" aria-label="Instagram"><img src="../assets/instagram.png" 
+    alt="Instagram Logo"><span>instagram</span></a>
+      <a href="YOUR_TWITTER_URL" aria-label="Twitter"><img src="../assets/twitter.png" 
+    alt="Twitter Logo"><span>twitter</span></a>
+
+
+
+</div>
   <p>© 2026 TechWave. All rights reserved.</p>
+
+
 </footer>
 
 </body>
