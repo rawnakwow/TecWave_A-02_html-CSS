@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
-    <style>
-        * {
-            margin: 0;
+   
+   
+   
+   <style>
+
+
+
+* {
+ margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
@@ -50,19 +56,8 @@
             font-family: Arial, sans-serif;
             color: white;
         }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .box {
-            width: 200px;
-            height: 200px;
-            background: linear-gradient(135deg, #ff2ec4, #7b2cff);
-            border-radius: 20px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
+        
+       
 
 /*   Navbar button Styles Color Add   */
     
@@ -78,6 +73,10 @@ height: 44px;
 margin-right: 200px;
 }
 
+
+
+
+
 /* arrow with  Navbar button Styles Color Add   */
 .btn-primary .arrow{
     margin-left: 8px;
@@ -88,9 +87,25 @@ height: 20px;
 
 
 
-/*                         */
+/*      buttons            */
    
    
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #ff2ec4;
+  padding: 10px 18px;
+  border-radius: 20px;
+  color: #ff2ec4;
+  cursor: pointer;
+}
+
+.buttons {
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+    margin-top: 0 10px;
+}
+
    
    /* footer style and color*/
 footer {
@@ -103,6 +118,7 @@ footer {
   background-repeat: no-repeat;
   background-color: #1A0B2E; /* Dark fallback color */
   color: white;
+  height:412px;
    }
    
 footer .logo {
@@ -156,6 +172,194 @@ margin: 0 0.75px
 text-decoration: none;
    }
 
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+ display: flex;
+            justify-content: center;
+            align-items: center;
+background-image: url('../assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #1A0B2E;
+
+
+}
+
+.section-2 p{
+    max-width: 500px;
+    line-height: 1.6;
+    gap: 50px;
+    color: #ccc;
+  margin-bottom: 25px;
+
+}
+ .box {
+            width: 100%;
+   max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 80px;
+        }
+
+
+
+
+
+
+
+
+        .iteams h3{
+
+            font-size: 24px;
+            color: #00FF88;
+        }
+
+
+        @media (max-width: 576px) {
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .btn-primary {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .hero-circle img {
+    width: 200px;
+    height: auto;
+  }
+
+  .section-2 {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .box {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .choose {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .episode-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Host {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer .image {
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto;
+    gap: 15px;
+  }
+}
+
+
+
+
+
+
+
+.section-2 p{
+    max-width: 500px;
+    line-height: 1.6;
+    gap: 50px;
+    color: #ccc;
+
+}
+
+
+.section-3 p{
+    max-width: 500px;
+    line-height: 1.6;
+    gap: 50px;
+    color: #ccc;
+
+}
+
+
+
+.section-3 p{
+    max-width: 500px;
+    line-height: 1.6;
+    gap: 50px;
+    color: #ccc;
+}
+
+.section-3 h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+     align-items: center;
+
+}
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15); 
+    margin: 4rem auto; 
+    width: 80%;
+    max-width: 900px;
+}
+
+
    </style>
 
 
@@ -168,10 +372,8 @@ text-decoration: none;
     <header class="navbar">
   <div class="logo">
          Tech<span>Wave</span>
-</div>
-  
-  <nav>
-    
+</div> 
+  <nav> 
     <a href="#">About</a>
     <a href="#">Episodes</a>
     <a href="#">Host</a>
@@ -181,30 +383,191 @@ text-decoration: none;
 </header>
 
 
-
-    <div class="container">
-        <div class="box"></div>
-    </div>
-
-
-
+<!--Section-1--> 
 
 <section class="section-1"> 
  
-<div class="image">
+<div class="container">
+     
 
+<div class="logo">
+         Tech<span>Wave</span>
+</div>
 
+<div class="circle">
 
+<img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\hero-circle.png"
+ alt="hero-circle">
 
+</div>
 
-
+<div class="buttons">
+      <button class="btn-primary">Listen Now</button>
+      <button class="btn-secondary">Subscribe</button>
+    </div>
 
 </div>
 
 
 
 
+</section>
 
+
+
+
+
+
+<!--Section-2--> 
+
+<section class="section-2">
+ <div class="text-content">
+<div class="About"> 
+
+<h2>About the Podcast</h2>
+<p>TechWave is your
+     go-to podcast for staying ahead in the fast-paced world of technology.
+ We break down complex topics 
+    into digestible insights, explore productivity strategies that 
+    actually work,and share stories of personal growth from industry leaders.</p>
+
+
+    <p>     Join thousands of young professionals
+         and tech enthusiasts who start their day with TechWave.</p>
+         
+</div>
+<hr class ="divider">
+
+<div class="box">
+<div class="iteams">
+    <h3>150K+</h3>
+    <p>Monthly Listeners</p>
+    </div>
+<div class="iteams">
+      <h3>200+</h3>
+    <p>Episodes Published</p>
+</div>
+<div class="iteams">
+    <h3>4.9★</h3>
+    <p>Average Rating</p>
+    </div>
+<div class="iteams">
+ <h3>50+</h3>
+    <p>Industry Experts</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<!--Section-3-->
+
+<section class="section-3">
+  <h2>Why Choose TechWave</h2>
+
+<div class="choose">
+     
+ <div class="feature-card">
+     <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets
+     \headphone.png">
+   <h2>Premium Audio Quality</h2>
+<p>
+       Experience crystal-clear sound with professional-grade
+        recording equipment and expert audio engineering. Every episode
+        is mastered for optimal listening across all devices and platforms.
+    </p>
+    </div>
+    <div class="feature-card">
+        <img src="assets/device.png " alt="device image ">
+       <h2>Mobile Friendly</h2>
+    <p>
+      Listen on the go with seamless mobile experience and offline downloads.
+    </p>
+    </div>
+   
+   
+    <div class="feature-card">
+        <img src="
+        " alt="">
+        Global Community</div>
+    <div class="feature-card"> 
+        <img src="" alt="">
+        Rich Resources
+    
+    </div>
+    <div class="feature-card"> 
+        
+        Exclusive Interviews
+
+    </div>
+    <div class="feature-card">
+        
+        Expert Commentary
+    
+    </div>
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+<!--Section-4-->
+
+<section class="featured"> 
+
+<h2>Featured Episodes</h2>
+
+ <div class="episode-grid">
+    <div class="episode-card">
+        
+        <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\youtube.png" 
+        alt="youtube">
+       <h2>The Future of AI in Everyday Life</h2>
+    <p>
+      Exploring how artificial intelligence is 
+      transforming our daily routines and what to expect in the next decade.
+    </p>
+   <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\clock.png " alt="">
+ <span>42 min</span>
+    
+    </div>
+    <div class="episode-card">
+        <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\youtube.png" 
+        alt="youtube">
+       <h2>The Future of AI in Everyday Life
+    <p>
+      Exploring how artificial intelligence is 
+      transforming our daily routines and what to expect in the next decade.
+    </p>
+   <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\clock.png " alt="">
+ <span>42 min</span>
+
+
+
+
+
+    </div>
+    <div class="episode-card">
+        
+        <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\youtube.png" 
+        alt="youtube">
+       <h2>The Future of AI in Everyday Life
+    <p>
+      Exploring how artificial intelligence is 
+      transforming our daily routines and what to expect in the next decade.
+    </p>
+   <img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\clock.png " alt="">
+ <span>42 min</span>
+    
+    
+    
+    </div>
+  </div>
 
 
 
@@ -218,16 +581,97 @@ text-decoration: none;
 
 
 
-   <footer>
+
+<section class="host-section"> 
+<h2>Meet the Hosts</h2>
+
+<div class="Host">
+     
+<img src="C:\Users\rawnak\Downloads\projects\Assignment-02\assets\host.png" 
+alt="Host Image">
+
+<div>
 
 
 
 
-    <div class="logo">
-         Tech<span>Wave</span>
+
+
+<h3>Alex Johnson & Maria Lee</h3>
+<p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights 
+    from industry leaders and practical advice for anyone looking to grow in tech.</p>
+
+<div class=" social-links">
+
+<a href="https://www.linkedin.com/in/alex-kumar">
+    <img src="assets/linkedin.png
+    " alt="">
+</a>
+
+<a href="https://www.twitter.com/alex-kumar">
+    <img src="assets/x.png
+    " alt="">
+</a>
+
+<a href="https://www.instagram.com/alex-kumar">
+    <img src="assets/instagram.png
+    " alt="">
+
+</a>
+
+<a href="https://www.youtube.com/@alex-kumar">
+    <img src="assets/youtube.png
+    " alt="">
+
+</a>
+
+</div>
 </div>
 
 
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+
+
+ <footer>
+
+ <div class="logo">
+         Tech<span>Wave</span>
+</div>
 
 <div  class="image">
    <a href="YOUR_SPOTIFY_URL" aria-label="Spotify"><img src="../assets/spotify.png" 
@@ -239,12 +683,9 @@ text-decoration: none;
     alt="Instagram Logo"><span>instagram</span></a>
       <a href="YOUR_TWITTER_URL" aria-label="Twitter"><img src="../assets/twitter.png" 
     alt="Twitter Logo"><span>twitter</span></a>
-
-
-
 </div>
-  <p>© 2026 TechWave. All rights reserved.</p>
 
+  <p>© 2026 TechWave. All rights reserved.</p>
 
 </footer>
 
